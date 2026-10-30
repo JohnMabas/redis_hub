@@ -1,0 +1,16 @@
+{
+  "name": "redis-lab",
+  "version": "1.0.0",
+  "description": "Sessions, caching, pub/sub, streams and rate limiting with node-redis",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "worker": "node src/worker.js",
+    "demo": "node src/demo.js",
+    "demo:realtime": "node src/demo-realtime.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "redis": "^5.0.0"
+  }
+}
